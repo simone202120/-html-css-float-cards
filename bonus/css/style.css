@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1000px;
+    font-family: 'Fredoka One', cursive;
+    margin:auto
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: rgb(209, 61, 110);
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+img{
+    float: left;
+    margin-right: 20px;
+    height: 100%;
+}
+ 
+.carattere{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.float{
+    background-color: black;
+    height: 100px;
+    color: white;
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+
+.mail{
+    color: rgb(105, 161, 214);
+}
+
+.padding{
+    padding: 20px 0;
+}
+
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.float:nth-of-type(3n+0){
+    margin-right: 0px;
+}
