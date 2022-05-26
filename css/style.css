@@ -18,10 +18,6 @@ h1{
     margin-bottom: 70px;
 }
 
-.contenitore{
-    margin-top: 50px;
-    
-}
 
 img{
     float: left;
@@ -39,8 +35,10 @@ img{
     background-color: black;
     height: 100px;
     color: white;
-    width: calc(100% / 3);
+    width: 30%;
     float: left;
+    margin-right: 25px;
+    margin-top: 40px;
     
 }
 
@@ -52,3 +50,9 @@ img{
     padding: 20px 0;
 }
 
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: table;
+
+}
